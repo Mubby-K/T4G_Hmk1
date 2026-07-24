@@ -60,17 +60,18 @@ console.log(typeof("Mubaarakah"));
 // Assignement 10
 
 // condition 1: less than 12 years
+// Condition 1: Under 12 years old
 if (age < 12) {
-        alert(`Hi ${username}, you are ${age} years old and you are too young to register. Sorry 😔😔`);
-      } 
-      // Condition 2: Between 12 and 18 years old (12 up to 17)
-      else if (age >= 12 && age < 18) {
-        alert(`Hi ${username}, you are ${age} years old and you have limited options to register for. We will keep in touch via your email: ${email} 👏🏽👏🏽.`);
-      } 
-      // Condition 3: 18 years old and above
-      else if (age >= 18) {
-        alert(`Hi ${username}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your email: ${email} 👏🏽👏🏽.`);
-      };
+  alert(`Hi ${username}, you are ${age} years old and you are too young to register. Sorry 😔😔`);
+} 
+// Condition 2: Between 12 and 17 years old
+else if (age >= 12 && age < 18) {
+  alert(`Hi ${username}, you are ${age} years old and you have limited options to register for. We will keep in touch via your email: ${email} 👏🏽👏🏽.`);
+} 
+// Condition 3: 18 years old and above
+else {
+  alert(`Hi ${username}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your email: ${email} 👏🏽👏🏽.`);
+}
 
 
 
